@@ -11,6 +11,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+<<<<<<< Updated upstream
 #home {
   position: relative;
   top: 50%;
@@ -108,3 +109,5 @@ code {
   color: rgb(0, 0, 255);
   font-family: Georgia, 'Times New Roman', Times, serif;
 }
+=======
+>>>>>>> Stashed changes
