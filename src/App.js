@@ -1,4 +1,4 @@
-<<<<<<< Updated upstream
+
 import Home from "./Components/Home/Home";
 import { Routes, Route, Navigate } from "react-router-dom";
 import Nav from "./Components/Nav/Nav";
@@ -8,7 +8,6 @@ import EditBook from "./Components/EditBook/EditBook";
 import AddBook from "./Components/AddBook/AddBook";
 import Login from './Auth/Login/Login'
 import Signup from "./Auth/SignUp/Signup";
-// import ProtectedRoute from "./ProtectedRoute";
 import Signout from "./Auth/Signout";
 import { useContext } from "react";
 import { AuthContext } from "./Context/AuthContext";
@@ -33,29 +32,7 @@ console.log('APP',isAuthenticated);
           <Route path="/signup" element={<Signup />}></Route>
           <Route path="/logout" element={<Signout />}></Route>
         </Routes>  
-        <Footer/>        
-=======
-import logo from './logo.svg';
-import './App.css';
-
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
->>>>>>> Stashed changes
+        <Footer/>   
     </div>
   );
 }
